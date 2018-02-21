@@ -1,0 +1,50 @@
+ body, html {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+div.carro { 
+  /* The image used */
+  background-image: url("jaguar-xe.jpg");
+  z-index: -1;
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.container{
+  position: absolute;
+  border-radius: 10px;
+  max-width: 600px;
+  background: rgba(0, 0, 0, 0.7);
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding-top: 10px;
+  padding-bottom: 3px;
+
+  margin-right: 5%;
+
+/*  padding-left: 15px;
+    padding-right: 15px;*/
+
+/*    margin-right: auto;
+    margin-left: auto;*/
+}
+div.texto1 h2 {
+    margin: 3%;
+    color: white;
+}
+div.texto2 p {
+    margin: 3%;
+    color: white;
+}
+a#button {
+  color: #fff;
+  opacity: 1;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  margin: 3%;
+  color: #fff;
+}
