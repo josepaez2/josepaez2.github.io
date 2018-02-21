@@ -1,6 +1,6 @@
- body, html {
-    font-family: 'Roboto', sans-serif;
-    height: 100%;
+body, html {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
 }
 div.carro { 
   /* The image used */
@@ -23,14 +23,7 @@ div.container{
   margin-left: 5%;
   padding-top: 10px;
   padding-bottom: 3px;
-
   margin-right: 5%;
-
-/*  padding-left: 15px;
-    padding-right: 15px;*/
-
-/*    margin-right: auto;
-    margin-left: auto;*/
 }
 div.texto1 h2 {
     margin: 3%;
